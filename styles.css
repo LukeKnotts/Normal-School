@@ -31,7 +31,7 @@ nav.thin {
 
 h1 {
   text-align: center;
-  color: blue;
+  color: rgb(92, 92, 189);
 }
 h1.maintitle {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -41,6 +41,17 @@ p {
   display: block;
   background-color: antiquewhite;
   padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 10px 0px 10px 0px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Topnav */
@@ -56,25 +67,13 @@ p {
   text-decoration: underline;
   background-color: rgb(224, 214, 201);
 }
-
-nav {
-  background-color: antiquewhite;
-  text-align: center;
-}
-
-ul {
-  list-style: none;
-  padding: 10px;
-}
-
 li.topnav {
   display: inline;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+nav {
+  background-color: antiquewhite;
+  text-align: center;
 }
 
 .dropdown {
@@ -84,20 +83,14 @@ img {
 .dropdown-content {
   display: none;
   position: absolute;
-  padding-top: 5px;
-  background-color: antiquewhite;
   z-index: 1;
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
+  transform: translateY(10px)
 }
 .dropdown:hover .dropdown-content {
   display: block;
 }
 .dropdown-content li {
   display: block;
-}
-.options {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.dropdown:hover .options {
-  background-color: rgb(224, 214, 201);
+  background-color: antiquewhite;
 }
