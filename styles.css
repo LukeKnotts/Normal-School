@@ -1,31 +1,40 @@
 body {
   background-color: lightblue;
-  margin-left: 20%;
-  margin-right: 20%;
   margin-top: 5%;
   margin-bottom: 10%;
-  transition: 0.5s;
   font-size: 100%;
+}
+
+nav.wide {
+  display: block;
+}
+nav.thin {
+  display: none;
 }
 
 @media only screen and (max-width: 900px) {
   body {
     margin-left: 6%;
     margin-right: 6%;
-    transition: 0.5s;
     font-size: 120%;
   }
-  
-  a.topnav {
+
+  nav.wide {
+    display: none;
+  }
+  nav.thin {
     display: block;
-    margin-top: 4px;
-    margin-bottom: 4px;
   }
 }
+
+/* Basics */
 
 h1 {
   text-align: center;
   color: blue;
+}
+h1.maintitle {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
@@ -34,13 +43,61 @@ p {
   padding: 10px;
 }
 
-a.topnav {
+/* Topnav */
+
+.topnav {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   white-space: nowrap;
-  margin-left: 50px;
-  margin-right: 50px;
+  text-decoration: none;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+}
+.topnav:hover {
+  text-decoration: underline;
+  background-color: rgb(224, 214, 201);
 }
 
-p.topnav {
+nav {
+  background-color: antiquewhite;
   text-align: center;
-  background-color: none;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+li.topnav {
+  display: inline;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding-top: 5px;
+  background-color: antiquewhite;
+  z-index: 1;
+  border-radius: 10px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content li {
+  display: block;
+}
+.options {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dropdown:hover .options {
+  background-color: rgb(224, 214, 201);
 }
