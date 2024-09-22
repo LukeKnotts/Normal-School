@@ -1,4 +1,46 @@
+body {
+  background-color: lightblue;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  transition: 0.5s;
+  font-size: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    margin-left: 6%;
+    margin-right: 6%;
+    transition: 0.5s;
+    font-size: 120%;
+  }
+  
+  a.topnav {
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+}
+
 h1 {
   text-align: center;
   color: blue;
+}
+
+p {
+  display: block;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+a.topnav {
+  white-space: nowrap;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+p.topnav {
+  text-align: center;
+  background-color: none;
 }
