@@ -90,6 +90,10 @@ nav {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.dropdown:hover li.options {
+  text-decoration: underline;
+  background-color: rgb(224, 214, 201);
+}
 .dropdown-content li {
   display: block;
   background-color: antiquewhite;
