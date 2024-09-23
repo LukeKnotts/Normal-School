@@ -60,15 +60,19 @@ function carousel() {
   }
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
+  x[myIndex-1].style.display = "inline";  
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 </script>
 
   <!--normal content-->
-  <img src="/images/theendisnigh.png">
-  <h2>About Us</h2>
-  <p>This is the homepage for the Hippocampus High School.</p>
+  <div class="sidecontent">
+    <h2>About Us</h2>
+    <p>
+      This is the homepage for the Hippocampus High School. 
+      We do lots of school stuff here, it's pretty sick really. Yeah yeah!
+    </p>
+  </div>
 </body>
 
 </html>

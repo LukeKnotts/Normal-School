@@ -25,6 +25,10 @@ nav.thin {
   nav.thin {
     display: block;
   }
+
+  .sidecontent {
+    display: block;
+  }
 }
 
 /* Basics */
@@ -37,10 +41,17 @@ h1.maintitle {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-p {
+h2 {
   display: block;
+  white-space: nowrap;
+}
+
+p {
+  display: inline;
   background-color: antiquewhite;
-  padding: 10px;
+  padding: 10px 15px 10px 15px;
+  line-height: 35px;
+  white-space: normal;
 }
 
 ul {
@@ -49,9 +60,7 @@ ul {
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
 }
 
 /* Topnav */
