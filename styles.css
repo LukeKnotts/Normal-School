@@ -63,7 +63,7 @@ img {
   display: inline;
   padding: 10px 10px 10px 10px;
 }
-.topnav:hover {
+.topnav:hover, .topnav:active {
   text-decoration: underline;
   background-color: rgb(224, 214, 201);
 }
@@ -94,7 +94,21 @@ nav {
   text-decoration: underline;
   background-color: rgb(224, 214, 201);
 }
+.dropdown:active .dropdown-content {
+  display: block;
+}
+.dropdown:active li.options {
+  text-decoration: underline;
+  background-color: rgb(224, 214, 201);
+}
 .dropdown-content li {
   display: block;
   background-color: antiquewhite;
+}
+.dropdown-content ul {
+  background-color: antiquewhite;
+}
+
+.topmargin {
+  padding-top: 25px;
 }
