@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+  background-image: linear-gradient(lightblue, rgb(137, 178, 192));
     margin: 10% 30% 10% 30%;
     font-size: 100%;
   }
@@ -10,6 +10,16 @@ body {
       margin-right: 15%;
       font-size: 120%;
     }
+
+    div.school-logo {
+      margin: 0px 0px 0px -10%;
+      display: inline-block;
+      font-size: 0.625em;
+    }
+  
+    h1.maintitle {
+      margin-top: 50px;
+    }
   }
 
   h1 {
@@ -18,11 +28,16 @@ body {
   }
   h1.maintitle {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+  white-space: nowrap;
   }
   
   h2 {
     display: block;
     white-space: nowrap;
+    background: rgb(126, 157, 168);
+    padding: 5px;
+    border-radius: 5%;
   }
   
   p {
@@ -52,6 +67,7 @@ body {
   .topnav:hover, .topnav:active {
     text-decoration: underline;
     background-color: rgb(224, 214, 201);
+    border-radius: 5%;
   }
   li{
     display: block;
@@ -60,5 +76,11 @@ body {
 
   nav {
     background-color: antiquewhite;
+    border-radius: 2%;
     text-align: center;
+  }
+
+  .school-logo {
+    margin: 0px 0px 0px -25%;
+    display: inline-block;
   }

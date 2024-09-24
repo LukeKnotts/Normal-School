@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-image: linear-gradient(lightblue, rgb(137, 178, 192));
   margin-top: 5%;
   margin-bottom: 10%;
   font-size: 100%;
@@ -10,6 +10,11 @@ nav.wide {
 }
 nav.thin {
   display: none;
+}
+
+img {
+  float: left;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 900px) {
@@ -27,7 +32,23 @@ nav.thin {
   }
 
   .sidecontent {
+    display: inline-block;
+  }
+
+  .slideshow {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.school-logo {
+    margin: 0px 0px 0px 15px;
+    display: inline-block;
+    font-size: 0.625em;
+  }
+
+  h1.maintitle {
+    margin-top: 50px;
   }
 }
 
@@ -39,11 +60,16 @@ h1 {
 }
 h1.maintitle {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 300%;
+  white-space: nowrap;
 }
 
 h2 {
-  display: block;
+  display: inline-block;
   white-space: nowrap;
+  background: rgb(126, 157, 168);
+  padding: 5px;
+  border-radius: 5%;
 }
 
 p {
@@ -59,18 +85,25 @@ ul {
   padding: 10px 0px 10px 0px;
 }
 
-img {
-  float: left;
+.paragraph-background {
+  background: antiquewhite;
+  padding: 10px;
+  display: block;
 }
 
 /* Topnav */
+
+.school-logo {
+  margin: 0px 0px 0px 10%;
+  display: inline-block;
+}
 
 .topnav {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   white-space: nowrap;
   text-decoration: none;
   display: inline;
-  padding: 15px 10px 15px 10px;
+  padding: 10px 10px 10px 10px;
 }
 .topnav:hover, .topnav:active {
   text-decoration: underline;
