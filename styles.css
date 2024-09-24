@@ -70,7 +70,7 @@ img {
   white-space: nowrap;
   text-decoration: none;
   display: inline;
-  padding: 10px 10px 10px 10px;
+  padding: 15px 10px 15px 10px;
 }
 .topnav:hover, .topnav:active {
   text-decoration: underline;
