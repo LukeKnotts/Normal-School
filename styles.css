@@ -14,7 +14,7 @@ nav.thin {
 
 img {
   float: left;
-  display: inline-block;
+  display: inline;
 }
 
 @media only screen and (max-width: 900px) {
@@ -32,7 +32,7 @@ img {
   }
 
   .sidecontent {
-    display: inline-block;
+    display: block;
   }
 
   .slideshow {
@@ -49,6 +49,11 @@ img {
 
   h1.maintitle {
     margin-top: 50px;
+  }
+
+  img {
+    float: none;
+    display: inline;
   }
 }
 
