@@ -14,6 +14,7 @@ nav.thin {
 
 img {
   float: left;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -30,12 +31,8 @@ img {
     display: block;
   }
 
-  .sidecontent {
-    display: block;
-  }
-
   .slideshow {
-    display: block;
+    display: inline;
     margin-left: auto;
     margin-right: auto;
   }
@@ -52,7 +49,6 @@ img {
 
   img.school-logo {
     float: none;
-    display: inline;
   }
 }
 
@@ -69,10 +65,10 @@ h1.maintitle {
 }
 
 h2 {
-  display: inline-block;
-  white-space: nowrap;
+  display: block;
   background: rgb(126, 157, 168);
   padding: 5px;
+  margin: 10px;
   border-radius: 5%;
 }
 
@@ -82,6 +78,7 @@ p {
   padding: 10px 15px 10px 15px;
   line-height: 35px;
   white-space: normal;
+  text-align: center;
 }
 
 ul {
@@ -158,4 +155,15 @@ nav {
 .topmargin {
   padding-top: 25px;
   padding-bottom: 0px;
+}
+
+div.inline-block {
+  display: inline-block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slideshow {
+  margin: 10px;
 }
