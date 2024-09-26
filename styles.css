@@ -37,6 +37,10 @@ img {
     margin-right: auto;
   }
 
+  img.mySlides {
+    width: 95%;
+  }
+
   div.school-logo {
     margin: 0px 0px 0px 15px;
     display: inline-block;
@@ -49,6 +53,10 @@ img {
 
   img.school-logo {
     float: none;
+  }
+
+  div.inline-block {
+    width: 80%;
   }
 }
 
@@ -159,11 +167,15 @@ nav {
 
 div.inline-block {
   display: inline-block;
-  width: 500px;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .slideshow {
   margin: 10px;
+}
+
+img.mySlides {
+  width: 49%;
 }
