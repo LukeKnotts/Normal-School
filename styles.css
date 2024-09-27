@@ -2,6 +2,8 @@ body {
   background-image: linear-gradient(lightblue, rgb(137, 178, 192));
   margin-top: 5%;
   margin-bottom: 10%;
+  margin-left: 0%;
+  margin-right: 0%;
   font-size: 100%;
 }
 
@@ -19,8 +21,8 @@ img {
 
 @media only screen and (max-width: 900px) {
   body {
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 0%;
+  margin-right: 0%;
     font-size: 120%;
   }
 
@@ -33,23 +35,20 @@ img {
 
   div.slideshow {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  }
-
-  img.mySlides {
-    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   div.school-logo {
     margin: 0px 0px 0px 15px;
-    display: inline-block;
-    font-size: 0.625em;
+    display: inline;
+    font-size: 50%;
     white-space: wrap;
   }
 
   h1.maintitle {
     margin-top: 50px;
+    white-space: wrap;
   }
 
   img.school-logo {
@@ -75,18 +74,18 @@ h1.maintitle {
 h2 {
   display: block;
   background: rgb(126, 157, 168);
-  padding: 5px;
-  margin: 10px 20px 10px 10px;
+  padding: 1%;
+  margin: 1% 1% 1% 1%;
   border-radius: 5%;
 }
 
 p {
   display: inline-block;
   background-color: antiquewhite;
-  padding: 10px 15px 10px 15px;
-  margin: 10px;
+  padding: 1% 5% 1% 5%;
+  margin: 1%;
   line-height: 35px;
-  white-space: normal;
+  white-space: wrap;
   text-align: center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -98,17 +97,12 @@ ul {
 
 .paragraph-background {
   background: antiquewhite;
-  padding: 10px;
+  padding: 1%;
   display: block;
 }
 
-
 .slideshow {
-  margin: 10px;
-}
-
-img.mySlides {
-  width: 49%;
+  margin: 1%;
 }
 
 .content {
