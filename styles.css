@@ -81,7 +81,7 @@ h2 {
 }
 
 p {
-  display: inline;
+  display: inline-block;
   background-color: antiquewhite;
   padding: 10px 15px 10px 15px;
   margin: 10px;
@@ -113,6 +113,22 @@ img.mySlides {
 .content {
   display: flex;
   flex-direction: column;
+}
+
+div.bottom-banner {
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background-color: rgb(96, 121, 143);
+  margin-top: 50px;
+}
+
+p.bottom-text {
+  background-color: rgb(96, 121, 143);
+  color: white;
+  margin: 0px 0px 0px 50px;
+  font-size: 1.25em;
 }
 
 
