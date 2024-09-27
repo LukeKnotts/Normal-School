@@ -31,14 +31,14 @@ img {
     display: block;
   }
 
-  .slideshow {
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
+  div.slideshow {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
 
   img.mySlides {
-    width: 95%;
+    width: 100%;
   }
 
   div.school-logo {
@@ -55,8 +55,8 @@ img {
     float: none;
   }
 
-  div.inline-block {
-    width: 80%;
+  .content {
+    clear: left;
   }
 }
 
@@ -76,7 +76,7 @@ h2 {
   display: block;
   background: rgb(126, 157, 168);
   padding: 5px;
-  margin: 10px;
+  margin: 10px 20px 10px 10px;
   border-radius: 5%;
 }
 
@@ -84,6 +84,7 @@ p {
   display: inline;
   background-color: antiquewhite;
   padding: 10px 15px 10px 15px;
+  margin: 10px;
   line-height: 35px;
   white-space: normal;
   text-align: center;
@@ -99,6 +100,24 @@ ul {
   padding: 10px;
   display: block;
 }
+
+
+.slideshow {
+  margin: 10px;
+}
+
+img.mySlides {
+  width: 49%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
 
 /* Topnav */
 
@@ -163,19 +182,4 @@ nav {
 .topmargin {
   padding-top: 25px;
   padding-bottom: 0px;
-}
-
-div.inline-block {
-  display: inline-block;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.slideshow {
-  margin: 10px;
-}
-
-img.mySlides {
-  width: 49%;
 }
