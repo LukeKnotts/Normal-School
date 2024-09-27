@@ -30,6 +30,7 @@ body {
         margin: 0px 0px 0px 15px;
         display: inline-block;
         font-size: 0.4em;
+        white-space: wrap;
       }
     
       h1.maintitle {
