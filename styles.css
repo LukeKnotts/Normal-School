@@ -59,6 +59,11 @@ img {
   .content {
     clear: left;
   }
+
+  img.sideimage {
+    width: 90%;
+    display: block;
+  }
 }
 /* Basics */
 
@@ -127,8 +132,56 @@ p.bottom-text {
   font-size: 1.25em;
 }
 
+.sideimage {
+  width: 50%;
+  display: inline-block;
+}
 
+ul.color-list {
+  list-style: square;
+  display: inline-block;
+  background-color: antiquewhite;
+  padding: 1% 6% 1% 6%;
+  margin: 0% 1% 0% 1%;
+  line-height: 35px;
+  white-space: wrap;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+li.freshman::marker {
+  color: rgb(200, 71, 146);
+  font-size: 2em;
+}
+
+li.sophmore::marker {
+  color: rgb(74, 85, 160);
+  font-size: 2em;
+}
+
+li.sophmore-alt::marker {
+  color: rgb(96, 161, 164);
+  font-size: 2em;
+}
+
+li.junior::marker {
+  color: rgb(105, 176, 84);
+  font-size: 2em;
+}
+
+li.senior::marker {
+  color: rgb(227, 233, 87);
+  font-size: 2em;
+}
+
+li.super-senior::marker {
+  color: grey;
+  font-size: 2em;
+}
+
+li.alumni::marker {
+  color: rgb(216, 142, 57);
+  font-size: 2em;
+}
 
 
 /* Topnav */
