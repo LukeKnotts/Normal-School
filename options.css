@@ -20,6 +20,22 @@ body {
     h1.maintitle {
       margin-top: 50px;
     }
+
+    @media only screen and (max-width: 500px) {
+      img.mySlides {
+        width: 75%;
+      }
+    
+      div.school-logo {
+        margin: 0px 0px 0px 15px;
+        display: inline-block;
+        font-size: 0.4em;
+      }
+    
+      h1.maintitle {
+        margin-top: 25px;
+      }
+    }
   }
 
   h1 {
