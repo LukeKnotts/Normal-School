@@ -2,8 +2,8 @@ body {
   background-image: linear-gradient(lightblue, rgb(137, 178, 192));
   margin-top: 5%;
   margin-bottom: 10%;
-  margin-left: 0%;
-  margin-right: 0%;
+  margin-left: 3%;
+  margin-right: 3%;
   font-size: 100%;
 }
 
@@ -21,8 +21,8 @@ img {
 
 @media only screen and (max-width: 900px) {
   body {
-    margin-left: 0%;
-  margin-right: 0%;
+    margin-left: 3%;
+  margin-right: 3%;
     font-size: 120%;
   }
 
@@ -49,6 +49,7 @@ img {
   h1.maintitle {
     margin-top: 50px;
     white-space: wrap;
+    width: 0.75vw;
   }
 
   img.school-logo {

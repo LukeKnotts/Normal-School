@@ -19,6 +19,7 @@ body {
   
     h1.maintitle {
       margin-top: 50px;
+      width: 0.75vw;
     }
   }
 
@@ -28,8 +29,8 @@ body {
   }
   h1.maintitle {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 300%;
-  white-space: nowrap;
+    white-space: nowrap;
+    width: 0.75vw;
   }
   
   h2 {
