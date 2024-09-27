@@ -41,11 +41,12 @@ body {
   }
   
   p {
-    display: inline;
+    display: inline-block;
     background-color: antiquewhite;
     padding: 10px 15px 10px 15px;
     line-height: 35px;
     white-space: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   ul {
@@ -57,6 +58,25 @@ body {
     float: left;
   }
   
+  div.bottom-banner {
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: rgb(96, 121, 143);
+    margin-top: 50px;
+  }
+  
+  p.bottom-text {
+    background-color: rgb(96, 121, 143);
+    color: white;
+    margin: 0px 0px 0px 50px;
+    font-size: 1.25em;
+  }
+
+
+
+
   /* Topnav */
   
   .topnav {
